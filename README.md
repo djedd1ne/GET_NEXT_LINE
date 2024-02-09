@@ -7,5 +7,5 @@
   <h3 align="center">GET_NEXT_LINE</h3>
 </div>
 <br><br>
-<b style color=Tomato;>DESCRIPTION</b>
-<p><i style color=Tomato;>get_next_line</i></p>
+$${\color{red}DESCRIPTION}$$
+$${\color{red}GET_NEXT_LINE}$$
