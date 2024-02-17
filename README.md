@@ -14,7 +14,15 @@ read the entire text file referenced by the file descriptor, one line at a time.
 &emsp; $\color[RGB]{87,150,87}fd$: file descriptor<br><br>
 $\color[RGB]{186,71,71}BONUS:$<br>
 &emsp;Handle multiple file descriptors simultaneously.<br><br>
-
+$\color[RGB]{186,71,71}BUFFER\ SIZE:$<br>
+&emsp;BUFFER SIZE can be determined during the compilation
+```bash
+cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
+```
+&emsp;Or defined in the header file
+```C
+#  define BUFFER_SIZE 1
+```
 $\color[RGB]{186,71,71}RETURN\ VALUE:$<br>
 &emsp;returns one line at the time<br>
 &emsp;returns ```NULL``` if nothing to read or an error has occured<br>
